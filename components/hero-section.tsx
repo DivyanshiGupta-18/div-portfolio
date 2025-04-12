@@ -62,7 +62,7 @@ export default function HeroSection() {
                 transition={{ delay: 0.2, duration: 0.8 }}
                 className="text-2xl font-medium text-purple-600"
               >
-                Hello, I'm
+                Hello, I&apos;m
               </motion.h2>
               <motion.h1
                 initial={{ opacity: 0 }}
