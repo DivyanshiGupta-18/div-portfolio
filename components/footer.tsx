@@ -3,7 +3,7 @@ import { Github, Linkedin, Mail, Twitter } from "lucide-react"
 
 export default function Footer() {
   return (
-    <footer className="bg-white border-t py-8">
+    <footer className="border-t py-8" >
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4 md:mb-0">
@@ -16,15 +16,15 @@ export default function Footer() {
           </div>
 
           <div className="flex space-x-4">
-            <a href="#" className="text-gray-500 hover:text-purple-600 transition-colors">
+            <a href="https://github.com/DivyanshiGupta-18" className="text-gray-500 hover:text-purple-600 transition-colors">
               <Github className="h-5 w-5" />
               <span className="sr-only">GitHub</span>
             </a>
-            <a href="#" className="text-gray-500 hover:text-purple-600 transition-colors">
+            <a href="https://www.linkedin.com/in/divyanshi-gupta-6387782a2/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" className="text-gray-500 hover:text-purple-600 transition-colors">
               <Linkedin className="h-5 w-5" />
               <span className="sr-only">LinkedIn</span>
             </a>
-            <a href="#" className="text-gray-500 hover:text-purple-600 transition-colors">
+            <a href="https://x.com/Divyanshig2004?t=kOOFK9FhGHJF6g1ne49npA&s=08" className="text-gray-500 hover:text-purple-600 transition-colors">
               <Twitter className="h-5 w-5" />
               <span className="sr-only">Twitter</span>
             </a>

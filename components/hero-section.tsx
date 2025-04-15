@@ -88,8 +88,7 @@ export default function HeroSection() {
               transition={{ delay: 0.8, duration: 0.8 }}
               className="text-gray-600 max-w-lg"
             >
-              A passionate Front-End Developer specializing in building responsive, user-friendly interfaces with a keen
-              focus on UI/UX and modern web technologies.
+              A passionate Front End Developer With a keen interest in web technologies, I specialize in creating responsive and interactive user interfaces and I am constantly honing my skills in the field of web development to bring creative ideas to life. As a dedicated hardworking individual, I am always willing to put in extra efforts to complete my projects and tasks. 
             </motion.p>
 
             <motion.div
@@ -120,9 +119,9 @@ export default function HeroSection() {
             transition={{ delay: 0.5, duration: 0.8 }}
             className="relative hidden md:block"
           >
-            <div className="relative h-[500px] w-full">
+            <div className="relative h-[450px] w-full rounded-sm">
               <Image
-                src="/images/coder-illustration.png"
+                src="/images/Divyanshi.jpg"
                 alt="Female coder illustration"
                 fill
                 className="object-contain"

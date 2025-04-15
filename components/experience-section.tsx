@@ -7,7 +7,7 @@ const experiences = [
   {
     title: "Software Developer Intern",
     company: "Remote",
-    period: "AUG 2024 – NOV 2024",
+    period: "5 AUG 2024 – 5 NOV 2024",
     description: [
       "Assisted in designing and optimizing responsive web applications, ensuring a seamless user experience.",
       "Collaborated with UI/UX designers and backend developers to create interactive and visually appealing interfaces.",
@@ -15,7 +15,7 @@ const experiences = [
       "Contributed to code debugging, testing, and performance optimization, gaining hands-on experience in industry best practices.",
       "Refined technical skills and deepened understanding of front-end development workflows in a professional setting.",
     ],
-    skills: ["HTML", "CSS", "JavaScript", "Responsive Design", "UI/UX", "Debugging"],
+    skills: ["HTML", "CSS", "JavaScript", "Bootstrap", "Responsive Design", "UI/UX", "Debugging"],
   },
 ]
 

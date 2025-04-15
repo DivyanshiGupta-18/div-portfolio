@@ -7,10 +7,26 @@ const education = [
   {
     degree: "Bachelor's of Computer Applications (BCA)",
     institution: "CCS University (Meerut)",
-    period: "2022 – PRESENT",
+    period: "2022 – 2025",
     description:
       "Studying core concepts of web development, programming, and software engineering, with a strong focus on front-end technologies, and responsive web development. Gaining hands-on experience in modern frameworks, performance optimization, and software development best practices to build user-centric digital solutions.",
     subjects: ["Web Development", "Programming", "Software Engineering", "Front-end Technologies", "Responsive Design"],
+  },
+  {
+    degree: "Senior Secondary (Class 12th) – PCM",
+    institution: "Leelawati Ramgopal Saraswati Vidya Mandir, Muradnagar, Ghaziabad",
+    period: "2022",
+    description:
+      "Completed my 12th with Physics, Chemistry, and Mathematics from CBSE Board, building a strong foundation in analytical thinking and problem-solving.",
+    subjects: ["Physics", "Chemistry", "Mathematics", "English", "Computer Science"],
+  },
+  {
+    degree: "Secondary (Class 10th)",
+    institution: "Leelawati Ramgopal Saraswati Vidya Mandir, Muradnagar, Ghaziabad",
+    period: "2020",
+    description:
+      "Completed 10th standard with distinction from CBSE Board, focusing on overall academic excellence and strong basics in science and mathematics.",
+    subjects: ["Science", "Mathematics", "English", "Social Studies", "Hindi", "IT"],
   },
 ]
 
@@ -68,7 +84,7 @@ export default function EducationSection() {
       >
         <h2 className="text-xl font-semibold mb-6">Activities & Interests</h2>
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
-          {["Chess", "Travel", "Hackathons", "Events", "Meet Up", "Games", "Music"].map((activity, index) => (
+          {["Chess", "Travel", "Hackathons", "Events", "Meet Up", "Games", "Music", "Tech"].map((activity, index) => (
             <motion.div
               key={activity}
               initial={{ opacity: 0, scale: 0.9 }}

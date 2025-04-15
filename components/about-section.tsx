@@ -16,7 +16,7 @@ export default function AboutSection() {
         >
           <div className="overflow-hidden bg-white rounded-lg shadow-sm border border-gray-200">
             <div className="relative h-80 w-full">
-              <Image src="/placeholder.svg?height=320&width=240" alt="Divyanshi Gupta" fill className="object-cover" />
+              <Image src="/images/D pic.jpeg" alt="Divyanshi Gupta" fill className="object-cover" />
             </div>
             <div className="p-4">
               <div className="space-y-4 mt-2">
@@ -34,10 +34,15 @@ export default function AboutSection() {
                 </div>
               </div>
 
-              <button className="w-full mt-6 inline-flex items-center justify-center rounded-md border border-gray-300 px-4 py-2 text-sm font-medium transition-colors hover:bg-gray-50">
+              <a
+                href="/images/Div-resume.pdf"
+                download
+                className="w-full mt-6 inline-flex items-center justify-center rounded-md border border-gray-300 px-4 py-2 text-sm font-medium transition-colors hover:bg-gray-50"
+              >
                 <Download className="mr-2 h-4 w-4" />
                 Download Resume
-              </button>
+              </a>
+
             </div>
           </div>
         </motion.div>
