@@ -39,7 +39,8 @@ export default function Footer() {
         </div>
 
         <div className="mt-6 text-center text-sm text-gray-500">
-          <p>© {new Date().getFullYear()} Divyanshi Gupta. All rights reserved.</p>
+          <p>---Build something helpful together---</p>
+          <h6>--CodeDrifter--</h6>
         </div>
       </div>
     </footer>

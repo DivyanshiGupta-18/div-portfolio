@@ -6,7 +6,7 @@ import { Briefcase, Calendar } from "lucide-react"
 const experiences = [
   {
     title: "Software Developer Intern",
-    company: "Remote",
+    company: "Greenbook Media & Apps (Remote)",
     period: "5 AUG 2024 – 5 NOV 2024",
     description: [
       "Assisted in designing and optimizing responsive web applications, ensuring a seamless user experience.",

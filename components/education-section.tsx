@@ -18,7 +18,7 @@ const education = [
     period: "2022",
     description:
       "Completed my 12th with Physics, Chemistry, and Mathematics from CBSE Board, building a strong foundation in analytical thinking and problem-solving.",
-    subjects: ["Physics", "Chemistry", "Mathematics", "English", "Computer Science"],
+    subjects: ["Physics", "Chemistry", "Mathematics", "English", "Hindi", "Physical Education"],
   },
   {
     degree: "Secondary (Class 10th)",

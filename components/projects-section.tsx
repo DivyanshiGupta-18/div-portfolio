@@ -14,8 +14,8 @@ const projects = [
   },
   {
     title: "Instant-Care",
-    description: "Instant-Care** is a smart, full-stack healthcare platform that combines real-time emergency response, AI-driven diagnosis through LLM, hospital and blood bank locators, and personalized Ayurvedic wellness insights for faster, holistic care.",
-    technologies: ["React.js", "Bootstrap", "Node js"],
+    description: "Instant-Care is a smart, full-stack healthcare platform that combines real-time emergency response, AI-driven diagnosis through LLM, hospital and blood bank locators, and personalized Ayurvedic wellness insights for faster, holistic care.",
+    technologies: ["React.js", "Bootstrap", "Node js", "Google Map API", "Typescript"],
     demoLink: "https://instant-care.vercel.app/",
     githubLink: "https://github.com/DivyanshiGupta-18/Instant-Care",
     image: "/images/Instant-Care.png",
@@ -23,7 +23,7 @@ const projects = [
   {
     title: "Employee-Todo",
     description: "The Employee Todo App is a web-based task management system that allows employees to create, update, and manage their daily tasks efficiently. This project is built with modern web technologies to ensure a seamless user experience.",
-    technologies: ["React.js", "API Integration", "CSS"],
+    technologies: ["React.js", "API Integration", "CSS", "Appwrite"],
     demoLink: "https://employee-todo-seven.vercel.app/",
     githubLink: "https://github.com/DivyanshiGupta-18/employee-todo",
     image: "/images/Employee-todo.png",
