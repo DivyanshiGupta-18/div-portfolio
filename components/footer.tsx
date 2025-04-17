@@ -45,7 +45,7 @@ export default function Footer() {
               <span className="sr-only">Email</span>
             </a>
             <a
-              href="https://leetcode.com/divyanshigupta_18"
+              href="https://leetcode.com/u/divyanshi_k/"
               className="text-gray-500 hover:text-purple-600 transition-colors"
             >
               <Code className="h-5 w-5" />
