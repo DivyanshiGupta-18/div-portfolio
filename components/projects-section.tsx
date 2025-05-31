@@ -20,14 +20,14 @@ const projects = [
     githubLink: "https://github.com/DivyanshiGupta-18/Instant-Care",
     image: "/images/Instant-Care.png",
   },
-  {
-    title: "Employee-Todo",
-    description: "The Employee Todo App is a web-based task management system that allows employees to create, update, and manage their daily tasks efficiently. This project is built with modern web technologies to ensure a seamless user experience.",
-    technologies: ["React.js", "API Integration", "CSS", "Appwrite"],
-    demoLink: "https://employee-todo-seven.vercel.app/",
-    githubLink: "https://github.com/DivyanshiGupta-18/employee-todo",
-    image: "/images/Employee-todo.png",
-  },
+  // {
+  //   title: "Employee-Todo",
+  //   description: "The Employee Todo App is a web-based task management system that allows employees to create, update, and manage their daily tasks efficiently. This project is built with modern web technologies to ensure a seamless user experience.",
+  //   technologies: ["React.js", "API Integration", "CSS", "Appwrite"],
+  //   demoLink: "https://employee-todo-seven.vercel.app/",
+  //   githubLink: "https://github.com/DivyanshiGupta-18/employee-todo",
+  //   image: "/images/Employee-todo.png",
+  // },
   {
     title: "my_food",
     description: "My Food is a vibrant and user-friendly recipe and food inspiration platform that offers curated meal ideas, trending recipes, and healthy eating tips. It features categories like Comfort Food, Quick & Easy meals, Desserts, and more. Users can explore popular dishes, discover ingredient substitutes, and browse healthy or seasonal food options. Perfect for food lovers looking for daily inspiration and nutritious meal choices.",
@@ -51,6 +51,15 @@ const projects = [
     demoLink: "https://spoon-fork.vercel.app/",
     githubLink: "https://github.com/DivyanshiGupta-18/spoon-fork",
     image: "/images/Spoon & Fork.png",
+  },
+  {
+    title: "GameVerse",
+    description: "This is a responsive gaming website built using HTML, CSS, and JavaScript. Users can buy a variety of gaming products like games, accessories, and merchandise. It also provides updates on upcoming gaming events, tournaments, and new releases.",
+    technologies :["Html" , "CSS", "Javascript"],
+    demoLink: "https://game-verse-three.vercel.app/",
+    githubLink: "https://github.com/DivyanshiGupta-18/GameVerse",
+    image: "/images/Gameverse.png",
+
   },
 ]
 
