@@ -48,7 +48,7 @@ const projects = [
     title: "Spoon & Fork",
     description: "Spoon & Fork is an interactive recipe platform that enhances your cooking journey with the power of technology. It integrates Map API to find nearby restaurants, FlavorDB for smart ingredient pairing, and RecipeDB for a wide variety of global recipes. With features like AI assistance, recipe filtering, and ingredient delivery, it’s your go-to destination for discovering, learning, and enjoying food like never before.",
     technologies: ["React.js" , "Tailwind CSS", "Node js"],
-    demoLink: "https://spoon-fork.vercel.app/",
+    demoLink: "https://spoon-and-fork.vercel.app/",
     githubLink: "https://github.com/DivyanshiGupta-18/spoon-fork",
     image: "/images/Spoon & Fork.png",
   },
