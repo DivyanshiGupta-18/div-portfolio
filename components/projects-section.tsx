@@ -7,7 +7,7 @@ const projects = [
    {
     title: "Whatsnew",
     description: "Whatsnew fashion e-commerce website designed to showcase and sell trending clothing and accessories for men and women. It features dynamic product listings, category-wise deals, and user interaction elements like add-to-cart and wishlist. The site combines a stylish front-end with a robust back-end for managing inventory, orders, and user accounts.",
-    technologies: ["HTML", "CSS", "Javascript"],
+    technologies: ["Next.js", "Tailwind CSS", "Typescript"],
     demoLink: "#",
     githubLink: "https://github.com/DivyanshiGupta-18/Whatsnew",
     image: "/images/Whatsnew.png",
