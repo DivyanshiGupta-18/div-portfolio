@@ -20,14 +20,23 @@ const projects = [
     githubLink: "https://github.com/DivyanshiGupta-18/Instant-Care",
     image: "/images/Instant-Care.png",
   },
-  // {
-  //   title: "Employee-Todo",
-  //   description: "The Employee Todo App is a web-based task management system that allows employees to create, update, and manage their daily tasks efficiently. This project is built with modern web technologies to ensure a seamless user experience.",
-  //   technologies: ["React.js", "API Integration", "CSS", "Appwrite"],
-  //   demoLink: "https://employee-todo-seven.vercel.app/",
-  //   githubLink: "https://github.com/DivyanshiGupta-18/employee-todo",
-  //   image: "/images/Employee-todo.png",
-  // },
+  {
+    title: "Employee-Todo",
+    description: "The Employee Todo App is a web-based task management system that allows employees to create, update, and manage their daily tasks efficiently. This project is built with modern web technologies to ensure a seamless user experience.",
+    technologies: ["React.js", "API Integration", "CSS", "Appwrite"],
+    demoLink: "https://employee-todo-seven.vercel.app/",
+    githubLink: "https://github.com/DivyanshiGupta-18/employee-todo",
+    image: "/images/Employee-todo.png",
+  },
+
+  {
+    title: "Whatsnew",
+    description: "Whatsnew fashion e-commerce website designed to showcase and sell trending clothing and accessories for men and women. It features dynamic product listings, category-wise deals, and user interaction elements like add-to-cart and wishlist. The site combines a stylish front-end with a robust back-end for managing inventory, orders, and user accounts.",
+    technologies: ["HTML", "CSS", "Javascript"],
+    demoLink: "#",
+    githubLink: "https://github.com/DivyanshiGupta-18/Whatsnew",
+    image: "/images/Whatsnew.png",
+  },
   {
     title: "my_food",
     description: "My Food is a vibrant and user-friendly recipe and food inspiration platform that offers curated meal ideas, trending recipes, and healthy eating tips. It features categories like Comfort Food, Quick & Easy meals, Desserts, and more. Users can explore popular dishes, discover ingredient substitutes, and browse healthy or seasonal food options. Perfect for food lovers looking for daily inspiration and nutritious meal choices.",
@@ -59,7 +68,6 @@ const projects = [
     demoLink: "https://game-verse-three.vercel.app/",
     githubLink: "https://github.com/DivyanshiGupta-18/GameVerse",
     image: "/images/Gameverse.png",
-
   },
 ]
 
