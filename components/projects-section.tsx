@@ -4,13 +4,13 @@ import { motion } from "framer-motion"
 import { ExternalLink, Github } from "lucide-react"
 
 const projects = [
-  {
-    title: "Job-dhundo",
-    description: "Job Dhundo is an AI-powered job search platform that helps users find their dream jobs effortlessly. Users can upload their resume to receive personalized job recommendations, track applied positions, and explore opportunities at top companies—all in a seamless, interactive experience.",
-    technologies: ["Next.js", "Tailwind CSS", "Node.js" ],
-    demoLink: "https://job-dhundo-virid.vercel.app/",
-    githubLink: "https://github.com/DivyanshiGupta-18/job-dhundo",
-    image: "/images/Job-dhundo.png",
+   {
+    title: "Whatsnew",
+    description: "Whatsnew fashion e-commerce website designed to showcase and sell trending clothing and accessories for men and women. It features dynamic product listings, category-wise deals, and user interaction elements like add-to-cart and wishlist. The site combines a stylish front-end with a robust back-end for managing inventory, orders, and user accounts.",
+    technologies: ["HTML", "CSS", "Javascript"],
+    demoLink: "#",
+    githubLink: "https://github.com/DivyanshiGupta-18/Whatsnew",
+    image: "/images/Whatsnew.png",
   },
   {
     title: "Instant-Care",
@@ -21,22 +21,21 @@ const projects = [
     image: "/images/Instant-Care.png",
   },
   {
-    title: "Employee-Todo",
-    description: "The Employee Todo App is a web-based task management system that allows employees to create, update, and manage their daily tasks efficiently. This project is built with modern web technologies to ensure a seamless user experience.",
-    technologies: ["React.js", "API Integration", "CSS", "Appwrite"],
-    demoLink: "https://employee-todo-seven.vercel.app/",
-    githubLink: "https://github.com/DivyanshiGupta-18/employee-todo",
-    image: "/images/Employee-todo.png",
+    title: "Spoon & Fork",
+    description: "Spoon & Fork is an interactive recipe platform that enhances your cooking journey with the power of technology. It integrates Map API to find nearby restaurants, FlavorDB for smart ingredient pairing, and RecipeDB for a wide variety of global recipes. With features like AI assistance, recipe filtering, and ingredient delivery, it’s your go-to destination for discovering, learning, and enjoying food like never before.",
+    technologies: ["React.js" , "Tailwind CSS", "Node js"],
+    demoLink: "https://spoon-and-fork.vercel.app/",
+    githubLink: "https://github.com/DivyanshiGupta-18/spoon-fork",
+    image: "/images/Spoon & Fork.png",
   },
-
   {
-    title: "Whatsnew",
-    description: "Whatsnew fashion e-commerce website designed to showcase and sell trending clothing and accessories for men and women. It features dynamic product listings, category-wise deals, and user interaction elements like add-to-cart and wishlist. The site combines a stylish front-end with a robust back-end for managing inventory, orders, and user accounts.",
-    technologies: ["HTML", "CSS", "Javascript"],
-    demoLink: "#",
-    githubLink: "https://github.com/DivyanshiGupta-18/Whatsnew",
-    image: "/images/Whatsnew.png",
-  },
+    title: "Job-dhundo",
+    description: "Job Dhundo is an AI-powered job search platform that helps users find their dream jobs effortlessly. Users can upload their resume to receive personalized job recommendations, track applied positions, and explore opportunities at top companies—all in a seamless, interactive experience.",
+    technologies: ["Next.js", "Tailwind CSS", "Node.js" ],
+    demoLink: "https://job-dhundo-virid.vercel.app/",
+    githubLink: "https://github.com/DivyanshiGupta-18/job-dhundo",
+    image: "/images/Job-dhundo.png",
+  }, 
   {
     title: "my_food",
     description: "My Food is a vibrant and user-friendly recipe and food inspiration platform that offers curated meal ideas, trending recipes, and healthy eating tips. It features categories like Comfort Food, Quick & Easy meals, Desserts, and more. Users can explore popular dishes, discover ingredient substitutes, and browse healthy or seasonal food options. Perfect for food lovers looking for daily inspiration and nutritious meal choices.",
@@ -46,20 +45,20 @@ const projects = [
     image: "/images/my_food.png",
   },
   {
+    title: "Employee-Todo",
+    description: "The Employee Todo App is a web-based task management system that allows employees to create, update, and manage their daily tasks efficiently. This project is built with modern web technologies to ensure a seamless user experience.",
+    technologies: ["React.js", "API Integration", "CSS", "Appwrite"],
+    demoLink: "https://employee-todo-seven.vercel.app/",
+    githubLink: "https://github.com/DivyanshiGupta-18/employee-todo",
+    image: "/images/Employee-todo.png",
+  },
+  {
     title: "News-Monkey",
     description: "A dynamic news platform built with React that provides real-time updates across various categories like sports, business, politics, entertainment, and daily headlines—all in one place for an informed and engaging experience. Users can filter news by category, explore trending topics, and stay updated with a clean, user-friendly interface.",
     technologies: ["React.js", "Bootstrap" , "News API" ],
     demoLink: "#",
     githubLink: "https://github.com/DivyanshiGupta-18/News-Monkey",
     image: "/images/News-Monkey.png",
-  },
-  {
-    title: "Spoon & Fork",
-    description: "Spoon & Fork is an interactive recipe platform that enhances your cooking journey with the power of technology. It integrates Map API to find nearby restaurants, FlavorDB for smart ingredient pairing, and RecipeDB for a wide variety of global recipes. With features like AI assistance, recipe filtering, and ingredient delivery, it’s your go-to destination for discovering, learning, and enjoying food like never before.",
-    technologies: ["React.js" , "Tailwind CSS", "Node js"],
-    demoLink: "https://spoon-and-fork.vercel.app/",
-    githubLink: "https://github.com/DivyanshiGupta-18/spoon-fork",
-    image: "/images/Spoon & Fork.png",
   },
   {
     title: "GameVerse",
