@@ -7,7 +7,7 @@ import Image from "next/image"
 export default function AboutSection() {
   return (
     <section className="py-8 max-w-4xl mx-auto">
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
         <motion.div
           initial={{ opacity: 0, x: -20 }}
           animate={{ opacity: 1, x: 0 }}
@@ -76,7 +76,7 @@ export default function AboutSection() {
                     initial={{ opacity: 0, x: -10 }}
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ delay: 0.3, duration: 0.4 }}
-                    className="flex items-start"
+                    className="flex items-baseline"
                   >
                     <span className="mr-2 mt-1.5 h-1.5 w-1.5 rounded-full bg-purple-500 flex-shrink-0"></span>
                     <span>Creating responsive designs that work across all devices </span>
@@ -85,7 +85,7 @@ export default function AboutSection() {
                     initial={{ opacity: 0, x: -10 }}
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ delay: 0.4, duration: 0.4 }}
-                    className="flex items-start"
+                    className="flex items-baseline"
                   >
                     <span className="mr-2 mt-1.5 h-1.5 w-1.5 rounded-full bg-purple-500 flex-shrink-0"></span>
                     <span>Building intuitive user interfaces with modern frameworks</span>
@@ -94,7 +94,7 @@ export default function AboutSection() {
                     initial={{ opacity: 0, x: -10 }}
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ delay: 0.5, duration: 0.4 }}
-                    className="flex items-start"
+                    className="flex items-baseline"
                   >
                     <span className="mr-2 mt-1.5 h-1.5 w-1.5 rounded-full bg-purple-500 flex-shrink-0"></span>
                     <span>Focusing on performance optimization and clean code</span>
@@ -103,7 +103,7 @@ export default function AboutSection() {
                     initial={{ opacity: 0, x: -10 }}
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ delay: 0.6, duration: 0.4 }}
-                    className="flex items-start"
+                    className="flex items-baseline"
                   >
                     <span className="mr-2 mt-1.5 h-1.5 w-1.5 rounded-full bg-purple-500 flex-shrink-0"></span>
                     <span>Exploring cloud technologies to build efficient and secure applications</span>
@@ -112,7 +112,7 @@ export default function AboutSection() {
                     initial={{ opacity: 0, x: -10 }}
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ delay: 0.6, duration: 0.4 }}
-                    className="flex items-start"
+                    className="flex items-baseline"
                   >
                     <span className="mr-2 mt-1.5 h-1.5 w-1.5 rounded-full bg-purple-500 flex-shrink-0"></span>
                     <span>Continuously learning new technologies and best practices</span>
