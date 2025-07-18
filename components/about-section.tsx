@@ -59,18 +59,13 @@ export default function AboutSection() {
 
               <div className="space-y-4 text-gray-600">
                 <p>
-                  I am Divyanshi Gupta, a passionate Front-End Developer pursuing my BCA (3rd year) at Modern Degree
-                  College. I specialize in building responsive, user-friendly interfaces with a keen focus on UI/UX and
-                  modern web technologies.
+                  I am Divyanshi Gupta, a passionate Front-End Developer currently pursuing my MCA in Cloud Computing from Manipal University, Jaipur. I specialize in building responsive, user-friendly interfaces with a strong focus on UI/UX and modern web technologies.
                 </p>
                 <p>
-                  While I have gained strong academic knowledge, I am eager to apply my skills in real-world projects
-                  and refine them further. I thrive on learning, adapting to new trends, and crafting seamless digital
-                  experiences.
+                  Having completed my BCA from Modern Degree College, I have built a solid academic foundation and am now deepening my understanding of cloud technologies and scalable systems through my postgraduate studies.
                 </p>
                 <p>
-                  Committed to innovation and continuous growth, I aim to contribute meaningfully to the web development
-                  industry.
+                  I thrive on learning, adapting to new trends, and crafting seamless digital experiences. Committed to innovation and continuous growth, I aim to contribute meaningfully to both front-end development and cloud-based applications.
                 </p>
               </div>
 
@@ -84,7 +79,7 @@ export default function AboutSection() {
                     className="flex items-start"
                   >
                     <span className="mr-2 mt-1.5 h-1.5 w-1.5 rounded-full bg-purple-500 flex-shrink-0"></span>
-                    <span>Creating responsive designs that work across all devices</span>
+                    <span>Creating responsive designs that work across all devices </span>
                   </motion.li>
                   <motion.li
                     initial={{ opacity: 0, x: -10 }}
@@ -103,6 +98,15 @@ export default function AboutSection() {
                   >
                     <span className="mr-2 mt-1.5 h-1.5 w-1.5 rounded-full bg-purple-500 flex-shrink-0"></span>
                     <span>Focusing on performance optimization and clean code</span>
+                  </motion.li>
+                   <motion.li
+                    initial={{ opacity: 0, x: -10 }}
+                    animate={{ opacity: 1, x: 0 }}
+                    transition={{ delay: 0.6, duration: 0.4 }}
+                    className="flex items-start"
+                  >
+                    <span className="mr-2 mt-1.5 h-1.5 w-1.5 rounded-full bg-purple-500 flex-shrink-0"></span>
+                    <span>Exploring cloud technologies to build efficient and secure applications</span>
                   </motion.li>
                   <motion.li
                     initial={{ opacity: 0, x: -10 }}

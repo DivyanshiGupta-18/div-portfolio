@@ -5,19 +5,45 @@ import { GraduationCap, Calendar } from "lucide-react"
 
 const education = [
   {
+    degree: "Master's of Computer Applications in Cloud Computing (MCA)",
+    institution: "Manipal University, Jaipur",
+    period: "2025 – 2027",
+    description:
+      "MCA in Cloud Computing focuses on designing, deploying, and managing scalable cloud-based solutions. It covers core technologies like virtualization, DevOps, and cloud security using platforms like AWS, Azure, and GCP.",
+    percentage: null,
+    subjects: [
+      "Cloud Computing Architecture",
+      "Virtualization & Containerization",
+      "Cloud Security & Compliance",
+      "DevOps & Automation",
+      "Distributed Systems",
+      "Big Data & Cloud Analytics",
+      "Web Services & APIs",
+      "Machine Learning in the Cloud",
+    ],
+  },
+  {
     degree: "Bachelor's of Computer Applications (BCA)",
     institution: "CCS University (Meerut)",
     period: "2022 – 2025",
     description:
-      "Studying core concepts of web development, programming, and software engineering, with a strong focus on front-end technologies, and responsive web development. Gaining hands-on experience in modern frameworks, performance optimization, and software development best practices to build user-centric digital solutions.",
-    subjects: ["Web Development", "Programming", "Software Engineering", "Front-end Technologies", "Responsive Design"],
+      "Studied core concepts of web development, programming, and software engineering, with a strong focus on front-end technologies and responsive design.",
+    percentage: "66.38%",
+    subjects: [
+      "Web Development",
+      "Programming",
+      "Software Engineering",
+      "Front-end Technologies",
+      "Responsive Design",
+    ],
   },
   {
     degree: "Senior Secondary (Class 12th) – PCM",
     institution: "Leelawati Ramgopal Saraswati Vidya Mandir, Muradnagar, Ghaziabad",
     period: "2022",
     description:
-      "Completed my 12th with Physics, Chemistry, and Mathematics from CBSE Board, building a strong foundation in analytical thinking and problem-solving.",
+      "Completed 12th with Physics, Chemistry, and Mathematics from CBSE Board, building a solid foundation in analytical thinking and problem-solving.",
+    percentage: "67.33%",
     subjects: ["Physics", "Chemistry", "Mathematics", "English", "Hindi", "Physical Education"],
   },
   {
@@ -25,7 +51,8 @@ const education = [
     institution: "Leelawati Ramgopal Saraswati Vidya Mandir, Muradnagar, Ghaziabad",
     period: "2020",
     description:
-      "Completed 10th standard with distinction from CBSE Board, focusing on overall academic excellence and strong basics in science and mathematics.",
+      "Completed 10th standard with distinction from CBSE Board, focusing on academic excellence and fundamentals in science and mathematics.",
+    percentage: "60.5%",
     subjects: ["Science", "Mathematics", "English", "Social Studies", "Hindi", "IT"],
   },
 ]
@@ -59,11 +86,16 @@ export default function EducationSection() {
               </div>
               <div className="px-6 pb-6">
                 <p className="mt-2 text-gray-600">{edu.description}</p>
+                {edu.percentage && (
+                  <p className="text-sm text-gray-500 mt-1">
+                    <strong>Percentage:</strong> {edu.percentage}
+                  </p>
+                )}
 
                 <div className="mt-4 flex flex-wrap gap-2">
                   {edu.subjects.map((subject) => (
-                    <span 
-                      key={subject} 
+                    <span
+                      key={subject}
                       className="inline-flex items-center rounded-full bg-gray-100 px-3 py-1 text-xs font-medium text-gray-800"
                     >
                       {subject}
