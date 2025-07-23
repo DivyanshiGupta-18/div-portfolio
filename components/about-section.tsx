@@ -30,12 +30,12 @@ export default function AboutSection() {
                 </div>
                 <div className="flex items-center">
                   <Mail className="h-4 w-4 mr-2 text-gray-500" />
-                  <span className="text-sm">guptadivyanshi756@example.com</span>
+                  <span className="text-sm">guptadivyanshi756@gmail.com</span>
                 </div>
               </div>
 
               <a
-                href="/images/Divyanshi-Gup.pdf"
+                href="/images/Divyanshi-Resume.pdf"
                 download
                 className="w-full mt-6 inline-flex items-center justify-center rounded-md border border-gray-300 px-4 py-2 text-sm font-medium transition-colors hover:bg-gray-50"
               >
