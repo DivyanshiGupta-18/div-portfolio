@@ -25,10 +25,6 @@ export default function AboutSection() {
                   <span className="text-sm">New Defense Colony Murad Nagar, Ghaziabad, Uttar Pradesh 201206</span>
                 </div>
                 <div className="flex items-center">
-                  <Phone className="h-4 w-4 mr-2 text-gray-500" />
-                  <span className="text-sm">91+ 8954191650</span>
-                </div>
-                <div className="flex items-center">
                   <Mail className="h-4 w-4 mr-2 text-gray-500" />
                   <span className="text-sm">guptadivyanshi756@gmail.com</span>
                 </div>
