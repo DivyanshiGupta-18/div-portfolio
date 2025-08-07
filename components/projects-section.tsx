@@ -53,20 +53,20 @@ const projects = [
     image: "/images/Employee-todo.png",
   },
   {
-    title: "News-Monkey",
-    description: "A dynamic news platform built with React that provides real-time updates across various categories like sports, business, politics, entertainment, and daily headlines—all in one place for an informed and engaging experience. Users can filter news by category, explore trending topics, and stay updated with a clean, user-friendly interface.",
-    technologies: ["React.js", "Bootstrap" , "News API" ],
-    demoLink: "#",
-    githubLink: "https://github.com/DivyanshiGupta-18/News-Monkey",
-    image: "/images/News-Monkey.png",
-  },
-  {
     title: "GameVerse",
     description: "This is a responsive gaming website built using HTML, CSS, and JavaScript. Users can buy a variety of gaming products like games, accessories, and merchandise. It also provides updates on upcoming gaming events, tournaments, and new releases.",
     technologies :["Html" , "CSS", "Javascript"],
     demoLink: "https://game-verse-three.vercel.app/",
     githubLink: "https://github.com/DivyanshiGupta-18/GameVerse",
     image: "/images/Gameverse.png",
+  },
+  {
+    title: "News-Monkey",
+    description: "A dynamic news platform built with React that provides real-time updates across various categories like sports, business, politics, entertainment, and daily headlines—all in one place for an informed and engaging experience. Users can filter news by category, explore trending topics, and stay updated with a clean, user-friendly interface.",
+    technologies: ["React.js", "Bootstrap" , "News API" ],
+    demoLink: "#",
+    githubLink: "https://github.com/DivyanshiGupta-18/News-Monkey",
+    image: "/images/News-Monkey.png",
   },
   {
     title: "Scoreazy",
