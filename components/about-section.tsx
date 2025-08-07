@@ -1,7 +1,7 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { Download, Mail, MapPin, Phone } from "lucide-react"
+import { Download, Mail, MapPin } from "lucide-react"
 import Image from "next/image"
 
 export default function AboutSection() {
