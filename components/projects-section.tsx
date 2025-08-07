@@ -68,6 +68,15 @@ const projects = [
     githubLink: "https://github.com/DivyanshiGupta-18/GameVerse",
     image: "/images/Gameverse.png",
   },
+  {
+    title: "Scoreazy",
+    description: "Scoreazy Confidence Micro-Course is a simple and responsive educational website built using HTML, CSS, and JavaScript. It features a 5-day confidence-building course designed for kids aged 8–11. The site includes interactive sections like course breakdown, pricing plans, and FAQs. Clean UI and intuitive layout make it easy to navigate.",
+    
+    technologies :["Html" , "CSS", "Javascript"],
+    demoLink: "https://scoreazy-edutech-swart.vercel.app/",
+    githubLink: "https://github.com/DivyanshiGupta-18/Scoreazy-Edutech",
+    image: "/images/Scoreazy.png",
+  },
 ]
 
 export default function ProjectsSection() {
