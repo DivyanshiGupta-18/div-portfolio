@@ -31,7 +31,7 @@ export default function AboutSection() {
               </div>
 
               <a
-                href="/images/Divyanshi-Resume.pdf"
+                href="/images/Divyanshi_Gupta.pdf"
                 download
                 className="w-full mt-6 inline-flex items-center justify-center rounded-md border border-gray-300 px-4 py-2 text-sm font-medium transition-colors hover:bg-gray-50"
               >
@@ -61,7 +61,7 @@ export default function AboutSection() {
                   Having completed my BCA from Modern Degree College, I have built a solid academic foundation and am now deepening my understanding of cloud technologies and scalable systems through my postgraduate studies.
                 </p>
                 <p>
-                  I thrive on learning, adapting to new trends, and crafting seamless digital experiences. Committed to innovation and continuous growth, I aim to contribute meaningfully to both front-end development and cloud-based applications.
+                  I aim to grow into a Full Stack & Cloud-ready Developer, combining frontend expertise with backend and cloud knowledge to deliver impactful digital products.
                 </p>
               </div>
 

@@ -6,7 +6,7 @@ import {
   Layout,
   Palette,
   FileJson,
-  // Server,
+  Server,
   Layers,
   Wind,
   Coffee,
@@ -15,8 +15,8 @@ import {
   Github,
   Figma,
   TerminalSquare,
-  // PenTool,
   Braces,
+  Terminal, // 👈 Express ke liye add
 } from "lucide-react"
 
 const skills = [
@@ -24,14 +24,13 @@ const skills = [
   { name: "CSS", icon: <Palette className="h-6 w-6" />, color: "bg-blue-100 text-blue-600" },
   { name: "Bootstrap", icon: <Layers className="h-6 w-6" />, color: "bg-purple-100 text-purple-600" },
   { name: "JavaScript", icon: <FileJson className="h-6 w-6" />, color: "bg-yellow-100 text-yellow-600" },
-  // { name: "Node.js", icon: <Server className="h-6 w-6" />, color: "bg-green-100 text-green-600" },
+  { name: "Node.js", icon: <Server className="h-6 w-6" />, color: "bg-green-100 text-green-600" },
+  { name: "Express.js", icon: <Terminal className="h-6 w-6" />, color: "bg-gray-100 text-gray-800" }, // 👈 New skill
   { name: "React.js", icon: <Code className="h-6 w-6" />, color: "bg-cyan-100 text-cyan-600" },
   { name: "Next.js", icon: <Braces className="h-6 w-6" />, color: "bg-black text-white" },
   { name: "Tailwind CSS", icon: <Wind className="h-6 w-6" />, color: "bg-teal-100 text-teal-600" },
-  //{ name: "Redux", icon: <Code className="h-6 w-6" />, color: "bg-indigo-100 text-indigo-600" },
   { name: "Git", icon: <GitBranch className="h-6 w-6" />, color: "bg-orange-50 text-orange-500" },
   { name: "GitHub", icon: <Github className="h-6 w-6" />, color: "bg-gray-200 text-gray-800" },
-  // { name: "Appwrite", icon: <PenTool className="h-6 w-6" />, color: "bg-pink-100 text-pink-600" },
   { name: "Figma", icon: <Figma className="h-6 w-6" />, color: "bg-pink-100 text-pink-600" },
   { name: "VS Code", icon: <TerminalSquare className="h-6 w-6" />, color: "bg-blue-100 text-blue-700" },
   { name: "Java", icon: <Coffee className="h-6 w-6" />, color: "bg-red-100 text-red-600" },
