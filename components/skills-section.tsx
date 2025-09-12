@@ -16,7 +16,7 @@ import {
   Figma,
   TerminalSquare,
   Braces,
-  Terminal, // 👈 Express ke liye add
+  Terminal,
 } from "lucide-react"
 
 const skills = [
@@ -25,7 +25,7 @@ const skills = [
   { name: "Bootstrap", icon: <Layers className="h-6 w-6" />, color: "bg-purple-100 text-purple-600" },
   { name: "JavaScript", icon: <FileJson className="h-6 w-6" />, color: "bg-yellow-100 text-yellow-600" },
   { name: "Node.js", icon: <Server className="h-6 w-6" />, color: "bg-green-100 text-green-600" },
-  { name: "Express.js", icon: <Terminal className="h-6 w-6" />, color: "bg-gray-100 text-gray-800" }, // 👈 New skill
+  { name: "Express.js", icon: <Terminal className="h-6 w-6" />, color: "bg-gray-100 text-gray-800" }, 
   { name: "React.js", icon: <Code className="h-6 w-6" />, color: "bg-cyan-100 text-cyan-600" },
   { name: "Next.js", icon: <Braces className="h-6 w-6" />, color: "bg-black text-white" },
   { name: "Tailwind CSS", icon: <Wind className="h-6 w-6" />, color: "bg-teal-100 text-teal-600" },
