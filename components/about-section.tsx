@@ -58,7 +58,7 @@ export default function AboutSection() {
                   I am Divyanshi Gupta, a passionate Front-End Developer currently pursuing my MCA in Cloud Computing from Manipal University, Jaipur. I specialize in building responsive, user-friendly interfaces with a strong focus on UI/UX and modern web technologies.
                 </p>
                 <p>
-                  Having completed my BCA from Modern Degree College, I have built a solid academic foundation and am now deepening my understanding of cloud technologies and scalable systems through my postgraduate studies.
+                  Currently, I’m expanding into Full Stack Development (MERN Stack) and exploring Cloud Computing (AWS & Azure basics) to build end-to-end, production-ready solutions.
                 </p>
                 <p>
                   I aim to grow into a Full Stack & Cloud-ready Developer, combining frontend expertise with backend and cloud knowledge to deliver impactful digital products.

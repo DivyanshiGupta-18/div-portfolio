@@ -88,7 +88,7 @@ export default function HeroSection() {
               transition={{ delay: 0.8, duration: 0.8 }}
               className="text-gray-600 max-w-lg"
             >
-              A passionate Front End Developer With a keen interest in web technologies, I specialize in creating responsive and interactive user interfaces and I am constantly honing my skills in the field of web development to bring creative ideas to life. As a dedicated hardworking individual, I am always willing to put in extra efforts to complete my projects and tasks. 
+              A passionate Frontend Developer with expertise in React.js, Next.js, Tailwind CSS, and modern UI/UX practices, currently exploring MERN Stack (MongoDB, Express.js, React.js, Node.js) and Cloud Computing. Passionate about building scalable, responsive, and user-friendly applications while continuously learning emerging technologies and I am constantly honing my skills in the field of Full Stack development to bring creative ideas to life. I am always willing to put in extra efforts to complete my projects and tasks. 
             </motion.p>
 
             <motion.div

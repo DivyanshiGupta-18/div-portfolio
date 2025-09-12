@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 
-const titles = ["Front-End Developer", "UI/UX Enthusiast", "React.js Developer", "Web Designer", "Java Developer"]
+const titles = ["Front-End Developer", "UI/UX Enthusiast", "React.js Developer", "Web Developer", "Java Developer", "Backend Developer", "Full Stack Developer"]
 
 export default function AnimatedText() {
   const [currentIndex, setCurrentIndex] = useState(0)

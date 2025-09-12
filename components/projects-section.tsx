@@ -7,7 +7,7 @@ const projects = [
    {
     title: "Whatsnew",
     description: "Whatsnew fashion e-commerce website designed to showcase and sell trending clothing and accessories for men and women. It features dynamic product listings, category-wise deals, and user interaction elements like add-to-cart and wishlist. The site combines a stylish front-end with a robust back-end for managing inventory, orders, and user accounts.",
-    technologies: ["Next.js", "Tailwind CSS", "Typescript", "Javascript"],
+    technologies: ["Next.js", "Tailwind CSS", "Typescript", "Javascript", "Node", "Express"],
     demoLink: "https://whatsnew-three.vercel.app/",
     githubLink: "https://github.com/DivyanshiGupta-18/Whatsnew",
     image: "/images/Whatsnew.png",
@@ -15,7 +15,7 @@ const projects = [
   {
     title: "Instant-Care",
     description: "Instant-Care is a smart, full-stack healthcare platform that combines real-time emergency response, AI-driven diagnosis through LLM, hospital and blood bank locators, and personalized Ayurvedic wellness insights for faster, holistic care.",
-    technologies: ["React.js", "Bootstrap", "Node js", "Google Map API", "Typescript"],
+    technologies: ["React.js", "Bootstrap", "Node", "Google Map API", "Express", "Gemini API"],
     demoLink: "https://instant-care.vercel.app/",
     githubLink: "https://github.com/DivyanshiGupta-18/Instant-Care",
     image: "/images/Instant-Care.png",
@@ -23,7 +23,7 @@ const projects = [
   {
     title: "Spoon & Fork",
     description: "Spoon & Fork is an interactive recipe platform that enhances your cooking journey with the power of technology. It integrates Map API to find nearby restaurants, FlavorDB for smart ingredient pairing, and RecipeDB for a wide variety of global recipes. With features like AI assistance, recipe filtering, and ingredient delivery, it’s your go-to destination for discovering, learning, and enjoying food like never before.",
-    technologies: ["React.js" , "Tailwind CSS", "Node js"],
+    technologies: ["React.js" , "Tailwind CSS", "Node", "Express", "MongoDB"],
     demoLink: "https://spoon-and-fork.vercel.app/",
     githubLink: "https://github.com/DivyanshiGupta-18/spoon-fork",
     image: "/images/Spoon & Fork.png",
@@ -31,7 +31,7 @@ const projects = [
   {
     title: "Job-dhundo",
     description: "Job Dhundo is an AI-powered job search platform that helps users find their dream jobs effortlessly. Users can upload their resume to receive personalized job recommendations, track applied positions, and explore opportunities at top companies—all in a seamless, interactive experience.",
-    technologies: ["Next.js", "Tailwind CSS", "Node.js" ],
+    technologies: ["Next.js", "Tailwind CSS", "Node", "Express" ],
     demoLink: "https://job-dhundo-virid.vercel.app/",
     githubLink: "https://github.com/DivyanshiGupta-18/job-dhundo",
     image: "/images/Job-dhundo.png",
