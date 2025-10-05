@@ -4,6 +4,15 @@ import { motion } from "framer-motion"
 import { ExternalLink, Github } from "lucide-react"
 
 const projects = [
+  {
+    title: "AI-Coach",
+    description: "The AI-Coach acts as an AI-powered communication coach, helping students, professionals, and businesses improve debate, presentation, and interview skills at scale. Universities and corporates can integrate it into training programs, reducing costs while enhancing employability. By combining AI feedback with gamification, it democratizes access to quality skill-building and creates measurable impact on career readiness and workforce productivity.",
+    technologies: ["Next.js", "Tailwind CSS", "Typescript", "Javascript", "Node", "Express", "MongoDB", "Gemini API"],
+    demoLink: "https://ai-coach-rho-beryl.vercel.app/",
+    githubLink: "https://github.com/DivyanshiGupta-18/AI-Coach",
+    image: "/images/ai-coach.png",
+    
+  },
    {
     title: "Whatsnew",
     description: "Whatsnew fashion e-commerce website designed to showcase and sell trending clothing and accessories for men and women. It features dynamic product listings, category-wise deals, and user interaction elements like add-to-cart and wishlist. The site combines a stylish front-end with a robust back-end for managing inventory, orders, and user accounts.",
