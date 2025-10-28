@@ -55,15 +55,16 @@ export default function AboutSection() {
 
               <div className="space-y-4 text-gray-600">
                 <p>
-                  I am Divyanshi Gupta, a passionate Front-End Developer currently pursuing my MCA in Cloud Computing from Manipal University, Jaipur. I specialize in building responsive, user-friendly interfaces with a strong focus on UI/UX and modern web technologies.
+                  I am Divyanshi Gupta, a passionate Full Stack Developer (MERN) currently pursuing my MCA in Cloud Computing from Manipal University, Jaipur. I specialize in building scalable, responsive, and user-friendly web applications using modern technologies.
                 </p>
                 <p>
-                  Currently, I’m expanding into Full Stack Development (MERN Stack) and exploring Cloud Computing (AWS & Azure basics) to build end-to-end, production-ready solutions.
+                  I have hands-on experience in both frontend and backend development — using React.js, Node.js, Express.js, and MongoDB — and I’m also exploring Cloud Computing (AWS & Azure basics) to deploy and manage production-ready applications.
                 </p>
                 <p>
-                  I aim to grow into a Full Stack & Cloud-ready Developer, combining frontend expertise with backend and cloud knowledge to deliver impactful digital products.
+                  My goal is to grow as a Full Stack & Cloud-ready Developer, combining efficient coding practices, strong UI/UX skills, and backend expertise to deliver impactful digital products.
                 </p>
               </div>
+
 
               <div className="mt-8">
                 <h3 className="text-lg font-medium mb-3">My Approach</h3>
@@ -95,7 +96,7 @@ export default function AboutSection() {
                     <span className="mr-2 mt-1.5 h-1.5 w-1.5 rounded-full bg-purple-500 flex-shrink-0"></span>
                     <span>Focusing on performance optimization and clean code</span>
                   </motion.li>
-                   <motion.li
+                  <motion.li
                     initial={{ opacity: 0, x: -10 }}
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ delay: 0.6, duration: 0.4 }}

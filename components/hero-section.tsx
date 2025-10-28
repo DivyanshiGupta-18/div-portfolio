@@ -88,7 +88,8 @@ export default function HeroSection() {
               transition={{ delay: 0.8, duration: 0.8 }}
               className="text-gray-600 max-w-lg"
             >
-              A passionate Frontend Developer with expertise in React.js, Next.js, Tailwind CSS, and modern UI/UX practices, currently exploring MERN Stack (MongoDB, Express.js, React.js, Node.js) and Cloud Computing. Passionate about building scalable, responsive, and user-friendly applications while continuously learning emerging technologies and I am constantly honing my skills in the field of Full Stack development to bring creative ideas to life. I am always willing to put in extra efforts to complete my projects and tasks. 
+             I’m a passionate Full Stack Developer (MERN) skilled in React.js, Next.js, Node.js, Express.js, and MongoDB, with a solid grasp of UI/UX and Tailwind CSS. I enjoy building scalable, responsive, and high-performance web apps that combine design and functionality.
+Currently exploring Cloud Computing (AWS & Azure), I’m always learning new technologies and putting in the extra effort to deliver clean and impactful solutions.
             </motion.p>
 
             <motion.div

@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { Github, Linkedin, Mail, Twitter, Code } from "lucide-react"
+import { Github, Linkedin, Mail, Code } from "lucide-react"
 
 export default function Footer() {
   return (
@@ -12,7 +12,7 @@ export default function Footer() {
                 Divyanshi Gupta
               </span>
             </Link>
-            <p className="text-sm text-gray-500 mt-1">Front-End Developer</p>
+            <p className="text-sm text-gray-500 mt-1">Software Developer</p>
           </div>
 
           <div className="flex space-x-4">
@@ -30,13 +30,7 @@ export default function Footer() {
               <Linkedin className="h-5 w-5" />
               <span className="sr-only">LinkedIn</span>
             </a>
-            <a
-              href="https://x.com/Divyanshig2004?t=kOOFK9FhGHJF6g1ne49npA&s=08"
-              className="text-gray-500 hover:text-purple-600 transition-colors"
-            >
-              <Twitter className="h-5 w-5" />
-              <span className="sr-only">Twitter</span>
-            </a>
+            
             <a
               href="mailto:guptadivyanshi756@example.com"
               className="text-gray-500 hover:text-purple-600 transition-colors"
