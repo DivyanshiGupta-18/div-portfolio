@@ -7,7 +7,7 @@ const projects = [
   {
     title: "AI-Coach",
     description: "The AI-Coach acts as an AI-powered communication coach, helping students, professionals, and businesses improve debate, presentation, and interview skills at scale. Universities and corporates can integrate it into training programs, reducing costs while enhancing employability. By combining AI feedback with gamification, it democratizes access to quality skill-building and creates measurable impact on career readiness and workforce productivity.",
-    technologies: ["Next.js", "Tailwind CSS", "Typescript", "Javascript", "Node", "Express", "MongoDB", "Gemini API"],
+    technologies: ["Next.js", "Tailwind CSS", "Typescript", "Javascript", "Nodejs", "Express", "MongoDB", "Gemini API"],
     demoLink: "https://ai-coach-rho-beryl.vercel.app/",
     githubLink: "https://github.com/DivyanshiGupta-18/AI-Coach",
     image: "/images/ai-coach.png",
@@ -16,7 +16,7 @@ const projects = [
    {
     title: "Whatsnew",
     description: "Whatsnew fashion e-commerce website designed to showcase and sell trending clothing and accessories for men and women. It features dynamic product listings, category-wise deals, and user interaction elements like add-to-cart and wishlist. The site combines a stylish front-end with a robust back-end for managing inventory, orders, and user accounts.",
-    technologies: ["Next.js", "Tailwind CSS", "Typescript", "Javascript", "Node", "Express"],
+    technologies: ["Next.js", "Tailwind CSS", "Typescript", "Javascript", "Node", "Express", "MongoDB"],
     demoLink: "https://whatsnew-three.vercel.app/",
     githubLink: "https://github.com/DivyanshiGupta-18/Whatsnew",
     image: "/images/Whatsnew.png",
@@ -32,7 +32,7 @@ const projects = [
   {
     title: "Spoon & Fork",
     description: "Spoon & Fork is an interactive recipe platform that enhances your cooking journey with the power of technology. It integrates Map API to find nearby restaurants, FlavorDB for smart ingredient pairing, and RecipeDB for a wide variety of global recipes. With features like AI assistance, recipe filtering, and ingredient delivery, it’s your go-to destination for discovering, learning, and enjoying food like never before.",
-    technologies: ["React.js" , "Tailwind CSS", "Node", "Express", "MongoDB"],
+    technologies: ["React.js" , "Tailwind CSS", "Node", "Express", "MongoDB", "CSS"],
     demoLink: "https://spoon-and-fork.vercel.app/",
     githubLink: "https://github.com/DivyanshiGupta-18/spoon-fork",
     image: "/images/Spoon & Fork.png",
@@ -56,9 +56,9 @@ const projects = [
   {
     title: "Employee-Todo",
     description: "The Employee Todo App is a web-based task management system that allows employees to create, update, and manage their daily tasks efficiently. This project is built with modern web technologies to ensure a seamless user experience.",
-    technologies: ["React.js", "API Integration", "CSS", "Appwrite"],
-    demoLink: "https://employee-todo-seven.vercel.app/",
-    githubLink: "https://github.com/DivyanshiGupta-18/employee-todo",
+    technologies: ["React.js", "Tailwind css", "CSS", "HTML"],
+    demoLink: "https://todo-list-livid-kappa-59.vercel.app/",
+    githubLink: "https://github.com/DivyanshiGupta-18/Todo-List",
     image: "/images/Employee-todo.png",
   },
   {
@@ -80,11 +80,18 @@ const projects = [
   {
     title: "Scoreazy",
     description: "Scoreazy Confidence Micro-Course is a simple and responsive educational website built using HTML, CSS, and JavaScript. It features a 5-day confidence-building course designed for kids aged 8–11. The site includes interactive sections like course breakdown, pricing plans, and FAQs. Clean UI and intuitive layout make it easy to navigate.",
-    
     technologies :["Html" , "CSS", "Javascript"],
     demoLink: "https://scoreazy-edutech-swart.vercel.app/",
     githubLink: "https://github.com/DivyanshiGupta-18/Scoreazy-Edutech",
     image: "/images/Scoreazy.png",
+  },
+  {
+    title: "Product Management",
+    description: "I built a Product Management application using React that allows users to view products in both list and card views with a toggle option. It includes real-time search with debounce, add/edit product functionality with validation, and pagination, all managed using in-memory state",
+    technologies :["Reactjs" , "CSS", "HTML"],
+    demoLink: "https://product-management-black.vercel.app/",
+    githubLink: "https://github.com/DivyanshiGupta-18/Product_Management",
+    image: "/images/Product_mgmt.png",
   },
 ]
 
