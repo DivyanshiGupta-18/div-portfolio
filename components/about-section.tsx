@@ -1,7 +1,7 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { Download, Mail, MapPin } from "lucide-react"
+import { Download, Mail, MapPin,  GraduationCap, Briefcase, } from "lucide-react"
 import Image from "next/image"
 
 export default function AboutSection() {
@@ -21,12 +21,25 @@ export default function AboutSection() {
             <div className="p-4">
               <div className="space-y-4 mt-2">
                 <div className="flex items-center">
-                  <MapPin className="h-4 w-4 mr-2 text-gray-500" />
+                  <MapPin className="h-5 w-5 mr-2 text-gray-500" />
                   <span className="text-sm">New Defense Colony Murad Nagar, Ghaziabad, Uttar Pradesh 201206</span>
                 </div>
                 <div className="flex items-center">
                   <Mail className="h-4 w-4 mr-2 text-gray-500" />
                   <span className="text-sm">guptadivyanshi756@gmail.com</span>
+                </div>
+                 <div className="flex items-start gap-3">
+                  <GraduationCap className="h-5 w-5 text-gray-500 mt-0.5" />
+                  <p className="text-sm">
+                    MCA in Cloud Computing — Manipal University Jaipur
+                  </p>
+                </div>
+
+                <div className="flex items-start gap-3">
+                  <Briefcase className="h-5 w-5 text-gray-500 mt-0.5" />
+                  <p className="text-sm">
+                    Frontend Developer at Stratosphere IT Services
+                  </p>
                 </div>
               </div>
 
