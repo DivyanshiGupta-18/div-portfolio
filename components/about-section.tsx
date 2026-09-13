@@ -22,7 +22,7 @@ export default function AboutSection() {
               <div className="space-y-4 mt-2">
                 <div className="flex items-center">
                   <MapPin className="h-5 w-5 mr-2 text-gray-500" />
-                  <span className="text-sm">New Defense Colony Murad Nagar, Ghaziabad, Uttar Pradesh 201206</span>
+                  <span className="text-sm">New Defence Colony Murad Nagar, Ghaziabad, Uttar Pradesh 201206</span>
                 </div>
                 <div className="flex items-center">
                   <Mail className="h-4 w-4 mr-2 text-gray-500" />

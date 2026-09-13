@@ -6,7 +6,7 @@ import { Briefcase, Calendar } from "lucide-react"
 const experiences = [
   {
     title: "DM Trainee – Frontend Developer",
-    company: "Stratosphere IT Services Private Limited (Hybrid)",
+    company: "Vintallic Software Group Pvt. Ltd. (Magic EdTech) (Hybrid)",
     period: "Feb 2025 – Present",
     description: [
       "Developing and maintaining EdTech web pages using internal tools and modern front-end technologies.",
@@ -18,13 +18,12 @@ const experiences = [
     skills: [
       "HTML5",
       "CSS3",
-      "JavaScript",
       "Responsive Design",
       "NVDA",
       "Jira",
+      "Epub Development",
       "Bug Fixing",
-      "Tortoise SVN",
-      "ePUB",
+      "Tortoise SVN"
     ],
   },
   {
