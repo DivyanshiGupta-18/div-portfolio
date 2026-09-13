@@ -38,13 +38,13 @@ export default function AboutSection() {
                 <div className="flex items-start gap-3">
                   <Briefcase className="h-5 w-5 text-gray-500 mt-0.5" />
                   <p className="text-sm">
-                    Frontend Developer at Stratosphere IT Services
+                       DM Trainee at Vintallic Software Group Pvt. Ltd.
                   </p>
                 </div>
               </div>
 
               <a
-                href="/images/Divyanshi_Gupta.pdf"
+                href="/images/Divyanshi-Gupta.pdf"
                 download
                 className="w-full mt-6 inline-flex items-center justify-center rounded-md border border-gray-300 px-4 py-2 text-sm font-medium transition-colors hover:bg-gray-50"
               >
